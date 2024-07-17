@@ -1,0 +1,8 @@
+version: '3'
+services:
+  snf-discord-bot:
+    build: .
+    container_name: snf-discord-bot
+    restart: always
+    environment:
+      - TZ=Europe/Moscow
